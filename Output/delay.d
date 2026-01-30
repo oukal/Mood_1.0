@@ -1,4 +1,5 @@
 ..\..\output\delay.o: ..\..\Drivers\SYSTEM\delay\delay.c
+..\..\output\delay.o: ..\..\Drivers\SYSTEM/delay/delay.h
 ..\..\output\delay.o: ..\..\Drivers\SYSTEM/sys/sys.h
 ..\..\output\delay.o: ..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\delay.o: ..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h
@@ -67,4 +68,12 @@
 ..\..\output\delay.o: ..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h
 ..\..\output\delay.o: ..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h
 ..\..\output\delay.o: ..\..\Drivers\CMSIS\Include\core_cm4.h
-..\..\output\delay.o: ..\..\Drivers\SYSTEM/delay/delay.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\FreeRTOS.h
+..\..\output\delay.o: ..\..\User\FreeRTOSConfig.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\projdefs.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\portable.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\deprecated_definitions.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\portmacro.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\mpu_wrappers.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\task.h
+..\..\output\delay.o: ..\..\FreeRTOS\include\list.h

@@ -213,7 +213,7 @@ Build output should show:
 ---
 
 ## 🧪 简单测试
-
+    f
 添加一个 LED 闪烁任务来验证 FreeRTOS 工作：
 
 ```c

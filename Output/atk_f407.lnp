@@ -3,6 +3,7 @@
 "..\..\output\main.o"
 "..\..\output\stm32f4xx_it.o"
 "..\..\output\system_stm32f4xx.o"
+"..\..\output\syslog.o"
 "..\..\output\delay.o"
 "..\..\output\sys.o"
 "..\..\output\usart.o"
@@ -45,6 +46,15 @@
 "..\..\output\text.o"
 "..\..\output\wavplay.o"
 "..\..\output\audioplay.o"
+"..\..\output\croutine.o"
+"..\..\output\event_groups.o"
+"..\..\output\list.o"
+"..\..\output\port.o"
+"..\..\output\queue.o"
+"..\..\output\stream_buffer.o"
+"..\..\output\tasks.o"
+"..\..\output\timers.o"
+"..\..\output\heap_4.o"
 --library_type=microlib --strict --scatter "..\..\Output\atk_f407.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

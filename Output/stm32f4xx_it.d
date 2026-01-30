@@ -69,3 +69,4 @@
 ..\..\output\stm32f4xx_it.o: ..\..\Drivers\BSP/KEY/key.h
 ..\..\output\stm32f4xx_it.o: ..\..\Drivers\SYSTEM/SYS/sys.h
 ..\..\output\stm32f4xx_it.o: ..\..\Drivers\CMSIS\Include\core_cm4.h
+..\..\output\stm32f4xx_it.o: ..\..\User\syslog.h

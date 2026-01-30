@@ -1,0 +1,78 @@
+# Keil MDK Build Output
+Output/
+*.axf
+*.elf
+*.hex
+*.bin
+
+# Keil MDK Compiler Output
+*.crf
+*.d
+*.o
+*.dep
+*.build_log.htm
+*.htm
+*.lnp
+*.sct
+*.lst
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.cproject
+.settings/
+
+# Keil uVision specific
+*.uvguix.*
+*.uvproj
+*.uvprojx
+*.dbgconf
+*.uvopt
+*.scvx
+*.sfr
+
+# Windows specific
+Thumbs.db
+*.bak
+*.tmp
+*.log
+
+# Build and Compilation
+*.a
+*.lib
+*.so
+*.exe
+*.dll
+
+# CMake (if used)
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Dependencies and packages
+node_modules/
+.npm/
+
+# Misc
+*.orig
+.temp/
+temp/

@@ -84,3 +84,15 @@
 ..\..\output\main.o: ..\..\Middlewares\./FATFS/source/ff.h
 ..\..\output\main.o: ..\..\Middlewares\./FATFS/source/ffconf.h
 ..\..\output\main.o: ..\..\Middlewares\./AUDIOCODEC/wav/wavplay.h
+..\..\output\main.o: ..\..\FreeRTOS\include\FreeRTOS.h
+..\..\output\main.o: ..\..\User\FreeRTOSConfig.h
+..\..\output\main.o: ..\..\FreeRTOS\include\projdefs.h
+..\..\output\main.o: ..\..\FreeRTOS\include\portable.h
+..\..\output\main.o: ..\..\FreeRTOS\include\deprecated_definitions.h
+..\..\output\main.o: ..\..\FreeRTOS\include\portmacro.h
+..\..\output\main.o: ..\..\FreeRTOS\include\mpu_wrappers.h
+..\..\output\main.o: ..\..\FreeRTOS\include\task.h
+..\..\output\main.o: ..\..\FreeRTOS\include\list.h
+..\..\output\main.o: ..\..\FreeRTOS\include\timers.h
+..\..\output\main.o: ..\..\FreeRTOS\include\semphr.h
+..\..\output\main.o: ..\..\FreeRTOS\include\queue.h
